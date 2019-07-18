@@ -1,0 +1,16 @@
+{
+  "name": "ts-color-type",
+  "version": "1.0.0",
+  "description": "A color type for TypeScript",
+  "main": "index.d.ts",
+  "author": "Ben Williams <ben@biwills.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "ts-node gen.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
